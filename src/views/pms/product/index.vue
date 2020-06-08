@@ -140,10 +140,7 @@
         <el-table-column label="操作" width="160" align="center">
           <template slot-scope="scope">
             <p>
-              <el-button
-                size="mini"
-                @click="handleShowProduct(scope.$index, scope.row)">查看
-              </el-button>
+
               <el-button
                 size="mini"
                 @click="handleUpdateProduct(scope.$index, scope.row)">编辑
